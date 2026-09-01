@@ -330,11 +330,17 @@ h2{
   font-family: var(--font-display);
   font-weight: 700;
   letter-spacing: -0.035em;
-  line-height: .96;
+  line-height: .88;
   font-size: clamp(3.2rem, 11vw, 7.2rem);
   margin: 6px 0 22px;
+  white-space: normal;
+  overflow: visible;
 }
-.hero-title .line{ display: block; overflow: hidden; }
+.hero-title .line{
+  display: block;
+  overflow: visible;
+  max-width: 100%;
+}
 .hero-title--accent{ color: var(--cyan); text-shadow: 0 0 46px rgba(0,229,255,.45); }
 
 .hero-subtitle{
