@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ECA Digital — Direitos e segurança de crianças e adolescentes na internet</title>
+<meta name="description" content="ECA Digital: conheça os direitos de crianças e adolescentes no ambiente online e aprenda práticas essenciais de segurança cibernética — senhas, privacidade, phishing e cyberbullying.">
+<meta name="theme-color" content="#050812">
+<meta name="color-scheme" content="dark">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="ECA Digital — Direitos também existem no mundo digital">
+<meta property="og:description" content="Guia interativo sobre o Estatuto da Criança e do Adolescente no ambiente digital e boas práticas de segurança cibernética.">
+<meta property="og:locale" content="pt_BR">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23050812'/%3E%3Cpath d='M16 6l9 4v6c0 6-4 10-9 10S7 22 7 16v-6l9-4z' fill='none' stroke='%2300E5FF' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preload" href="js/script.js" as="script">
+</head>
+<body>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<div class="scroll-progress" aria-hidden="true"><span id="scrollBar"></span></div>
+
+<div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#topo" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="26" height="26"><path d="M16 4l11 5v7c0 7.5-4.9 13.4-11 15-6.1-1.6-11-7.5-11-15V9l11-5z" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      </span>
+      ECA <b>Digital</b>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+      <a href="#o-que-e">O que é</a>
+      <a href="#direitos">Direitos</a>
+      <a href="#seguranca">Segurança</a>
+      <a href="#protecao">Como se proteger</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- 1. HERO -->
+  <section class="hero" id="topo">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-grid"></div>
+      <div class="hero-orb hero-orb--a"></div>
+      <div class="hero-orb hero-orb--b"></div>
+      <svg class="hero-net" viewBox="0 0 900 900" aria-hidden="true">
+        <g class="hero-net-lines" stroke="#00E5FF" stroke-opacity="0.35" fill="none">
+          <path d="M120 640 L340 460 L560 560 L780 300"></path>
+          <path d="M180 220 L420 380 L640 200 L820 360"></path>
+          <path d="M100 400 L360 400 L560 560"></path>
+        </g>
+        <g class="hero-net-dots" fill="#00E5FF">
+          <circle cx="120" cy="640" r="5"></circle>
+          <circle cx="340" cy="460" r="5"></circle>
+          <circle cx="560" cy="560" r="5"></circle>
+          <circle cx="780" cy="300" r="5"></circle>
+          <circle cx="180" cy="220" r="5"></circle>
+          <circle cx="420" cy="380" r="5"></circle>
+          <circle cx="640" cy="200" r="5"></circle>
+          <circle cx="820" cy="360" r="5"></circle>
+          <circle cx="100" cy="400" r="5"></circle>
+          <circle cx="360" cy="400" r="5"></circle>
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <p class="eyebrow">Lei 8.069/1990 no ambiente online</p>
+      <h1 class="hero-title">
+        <span class="line">ECA</span>
+        <span class="line hero-title--accent">Digital</span>
+      </h1>
+      <p class="hero-subtitle">
+        Toda criança e todo adolescente tem direito a crescer protegido — também na tela.
+        Entenda como o Estatuto da Criança e do Adolescente se aplica à internet e como
+        navegar com mais segurança.
+      </p>
+      <div class="hero-actions">
+        <a href="#o-que-e" class="btn btn--primary" id="exploreBtn">
+          Explorar
+          <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#seguranca" class="btn btn--ghost">Ver segurança digital</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-cue" aria-hidden="true">
+      <span></span>
+      <p>Role para explorar</p>
+    </div>
+  </section>
+
+  <!-- 2. O QUE É -->
+  <section class="section" id="o-que-e">
+    <div class="section-inner">
+      <div class="reveal-group">
+        <h2 class="reveal" data-reveal>O que é o ECA Digital</h2>
+        <p class="lede reveal" data-reveal>
+          O ECA Digital é a forma como o Estatuto da Criança e do Adolescente se estende
+          ao ambiente virtual: os mesmos direitos garantidos na vida offline —
+          proteção, dignidade, liberdade e desenvolvimento saudável — também valem
+          para o tempo que crianças e adolescentes passam conectados.
+        </p>
+      </div>
+
+      <div class="stats-grid">
+        <article class="stat-card reveal" data-reveal>
+          <span class="stat-number" data-count="82">0</span><span class="stat-suffix">%</span>
+          <p>dos adolescentes brasileiros acessam a internet todos os dias</p>
+        </article>
+        <article class="stat-card reveal" data-reveal>
+          <span class="stat-number" data-count="9">0</span><span class="stat-suffix">a 17</span>
+          <p>anos é a faixa etária coberta pelo Estatuto no ambiente digital</p>
+        </article>
+        <article class="stat-card reveal" data-reveal>
+          <span class="stat-number" data-count="3">0</span><span class="stat-suffix">pilares</span>
+          <p>guiam o ECA Digital: proteção, participação e prevenção</p>
+        </article>
+        <article class="stat-card reveal" data-reveal>
+          <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
+          <p>dos direitos da infância valem também dentro das telas</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. DIREITOS -->
+  <section class="section section--alt" id="direitos">
+    <div class="section-inner">
+      <h2 class="reveal" data-reveal>Direitos no ambiente digital</h2>
+      <p class="lede reveal" data-reveal>Cinco garantias que acompanham crianças e adolescentes onde quer que estejam conectados.</p>
+
+      <div class="rights-grid">
+        <article class="right-card reveal" data-reveal>
+          <span class="right-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6l7-3z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="11" r="2.3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </span>
+          <h3>Privacidade</h3>
+          <p>Dados pessoais e imagens não podem ser expostos, coletados ou usados sem consentimento adequado.</p>
+        </article>
+
+        <article class="right-card reveal" data-reveal>
+          <span class="right-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="10" width="16" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </span>
+          <h3>Segurança</h3>
+          <p>Ambientes, plataformas e produtos digitais devem ser desenhados pensando na proteção de menores.</p>
+        </article>
+
+        <article class="right-card reveal" data-reveal>
+          <span class="right-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v5l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Informação</h3>
+          <p>Acesso a conteúdo apropriado para a idade, verdadeiro e de qualidade educativa.</p>
+        </article>
+
+        <article class="right-card reveal" data-reveal>
+          <span class="right-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h10M4 18h13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Liberdade de expressão</h3>
+          <p>Direito de se manifestar e participar online, respeitando limites e a expressão de terceiros.</p>
+        </article>
+
+        <article class="right-card reveal" data-reveal>
+          <span class="right-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6l7-3z" stroke="currentColor" stroke-width="1.5"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Proteção contra violência online</h3>
+          <p>Direito de estar livre de assédio, exploração, discurso de ódio e cyberbullying.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SEGURANÇA CIBERNÉTICA -->
+  <section class="section" id="seguranca">
+    <div class="section-inner">
+      <h2 class="reveal" data-reveal>Segurança cibernética</h2>
+      <p class="lede reveal" data-reveal>Seis hábitos que reduzem riscos reais no dia a dia conectado.</p>
+
+      <div class="topics-grid">
+        <article class="topic-card reveal" data-reveal>
+          <span class="topic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="15.5" r="1.4" fill="currentColor"/></svg>
+          </span>
+          <h3>Senhas</h3>
+          <p>Use senhas longas e únicas para cada serviço, com gerenciador de senhas e verificação em duas etapas.</p>
+        </article>
+
+        <article class="topic-card reveal" data-reveal>
+          <span class="topic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </span>
+          <h3>Privacidade</h3>
+          <p>Revise configurações de perfil, quem vê suas publicações e quais dados os apps podem coletar.</p>
+        </article>
+
+        <article class="topic-card reveal" data-reveal>
+          <span class="topic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="1.5"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.5"/><path d="M14 3l3 3-1.2 1.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Phishing</h3>
+          <p>Desconfie de links e mensagens urgentes pedindo dados ou senhas — confira sempre o remetente.</p>
+        </article>
+
+        <article class="topic-card reveal" data-reveal>
+          <span class="topic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="9" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/><path d="M3 20c0-3.3 2.7-5.5 6-5.5s6 2.2 6 5.5" stroke="currentColor" stroke-width="1.5"/><path d="M15 7l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Cyberbullying</h3>
+          <p>Denuncie, bloqueie e guarde provas de ataques online — e converse com um adulto de confiança.</p>
+        </article>
+
+        <article class="topic-card reveal" data-reveal>
+          <span class="topic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/><path d="M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Dados pessoais</h3>
+          <p>Nome completo, endereço e rotina não devem ser publicados livremente — pense antes de postar.</p>
+        </article>
+
+        <article class="topic-card reveal" data-reveal>
+          <span class="topic-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
+          </span>
+          <h3>Atualizações</h3>
+          <p>Mantenha apps e sistemas atualizados — correções de segurança fecham portas para invasores.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. DESTAQUE / PARALLAX -->
+  <section class="highlight" id="destaque">
+    <div class="highlight-sticky">
+      <div class="highlight-visual" aria-hidden="true">
+        <div class="highlight-glow"></div>
+        <div class="highlight-shape highlight-shape--1" data-speed="0.15"></div>
+        <div class="highlight-shape highlight-shape--2" data-speed="0.3"></div>
+        <div class="highlight-shape highlight-shape--3" data-speed="0.5"></div>
+        <svg class="highlight-shield" viewBox="0 0 200 200" data-speed="0.08">
+          <path d="M100 20l65 26v40c0 46-28 78-65 92-37-14-65-46-65-92V46l65-26z" fill="none" stroke="#00E5FF" stroke-width="1.4" opacity="0.6"/>
+          <path d="M70 100l20 20 42-42" fill="none" stroke="#00E5FF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="highlight-text">
+        <p class="eyebrow">Proteção em camadas</p>
+        <h2>Segurança digital é construída em rede: leis, plataformas, famílias e escolas.</h2>
+        <p class="highlight-copy">
+          Nenhuma medida isolada resolve sozinha. O ECA Digital funciona como uma
+          camada a mais de proteção, junto de configurações de privacidade,
+          educação digital e diálogo aberto sobre o que acontece online.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. COMO SE PROTEGER -->
+  <section class="section" id="protecao">
+    <div class="section-inner">
+      <h2 class="reveal" data-reveal>Como se proteger</h2>
+      <p class="lede reveal" data-reveal>Toque ou passe o cursor sobre cada cartão para ver a prática recomendada.</p>
+
+      <div class="protect-grid">
+        <button class="protect-card reveal" data-reveal type="button">
+          <div class="protect-face protect-face--front">
+            <span class="protect-icon" aria-hidden="true">🔐</span>
+            <h3>Configure a privacidade</h3>
+          </div>
+          <div class="protect-face protect-face--back">
+            <p>Deixe perfis privados, limite quem pode enviar mensagens e revise permissões de localização.</p>
+          </div>
+        </button>
+
+        <button class="protect-card reveal" data-reveal type="button">
+          <div class="protect-face protect-face--front">
+            <span class="protect-icon" aria-hidden="true">🗣️</span>
+            <h3>Converse abertamente</h3>
+          </div>
+          <div class="protect-face protect-face--back">
+            <p>Mantenha diálogo com um adulto de confiança sobre o que acontece nos apps e jogos online.</p>
+          </div>
+        </button>
+
+        <button class="protect-card reveal" data-reveal type="button">
+          <div class="protect-face protect-face--front">
+            <span class="protect-icon" aria-hidden="true">🚫</span>
+            <h3>Bloqueie e denuncie</h3>
+          </div>
+          <div class="protect-face protect-face--back">
+            <p>Use as ferramentas de bloqueio e denúncia das plataformas diante de qualquer abordagem suspeita.</p>
+          </div>
+        </button>
+
+        <button class="protect-card reveal" data-reveal type="button">
+          <div class="protect-face protect-face--front">
+            <span class="protect-icon" aria-hidden="true">🧠</span>
+            <h3>Pense antes de postar</h3>
+          </div>
+          <div class="protect-face protect-face--back">
+            <p>O que vai para a internet é difícil de apagar. Avalie o impacto antes de compartilhar.</p>
+          </div>
+        </button>
+
+        <button class="protect-card reveal" data-reveal type="button">
+          <div class="protect-face protect-face--front">
+            <span class="protect-icon" aria-hidden="true">🛡️</span>
+            <h3>Use verificação em duas etapas</h3>
+          </div>
+          <div class="protect-face protect-face--back">
+            <p>Adicione uma camada extra de segurança às contas mais importantes com 2FA.</p>
+          </div>
+        </button>
+
+        <button class="protect-card reveal" data-reveal type="button">
+          <div class="protect-face protect-face--front">
+            <span class="protect-icon" aria-hidden="true">⏳</span>
+            <h3>Equilibre o tempo de tela</h3>
+          </div>
+          <div class="protect-face protect-face--back">
+            <p>Combine pausas regulares e horários saudáveis de uso com atividades fora da tela.</p>
+          </div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CONCLUSÃO -->
+  <section class="closing" id="conclusao">
+    <div class="closing-inner">
+      <p class="closing-text" id="closingText">Direitos também existem no mundo digital.</p>
+      <a href="#topo" class="btn btn--primary btn--large">
+        Voltar ao início
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 13V3M4 7l4-4 4 4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 ECA Digital. Conteúdo educativo baseado na Lei nº 15.211/2025 (ECA Digital).</p>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
